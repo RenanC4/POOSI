@@ -1,5 +1,7 @@
 
 class Funcionario extends Pessoa {
+	
+
 	String id;
 	String senha;
 
