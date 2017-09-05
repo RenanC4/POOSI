@@ -12,7 +12,14 @@ class Cliente extends Pessoa {
 	}
 
 	public String getSenha() {
+		if(senha.length() < 8){
+			String erro = "A senha deve conter ao menos 8 caracteres"; 
+			return  erro;
+			
+		} else{
+		
 		return senha;
+		}
 	}
 
 	public void setSenha(String senha) {

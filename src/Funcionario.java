@@ -2,13 +2,17 @@
 class Funcionario extends Pessoa {
 	
 
-	String id;
-	String senha;
-
+	private String id;
+	private String senha;
+	
+	
+	
 	public Funcionario(String nome, String cpf, Boolean sexo) {
 		super(nome, cpf, sexo);
 		// TODO Auto-generated constructor stub
 	}
+
+	
 
 	public String getId() {
 		return id;
@@ -41,5 +45,20 @@ class Funcionario extends Pessoa {
 	      return false;
 	    }
 	  }
-
+	
+	public double Desconta(double Preco, double Desconto){
+		double preco = Preco-Desconto;
+		
+		return preco;
+		
+	
+	}
+	
+	public double Desconta(double Preco, double Desconto, double codDesconto){
+		double preco = (Preco-Desconto) - codDesconto;
+		
+		return 0;
+		
+	
+	
 }
