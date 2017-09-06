@@ -57,8 +57,9 @@ class Funcionario extends Pessoa {
 	public double Desconta(double Preco, double Desconto, double codDesconto){
 		double preco = (Preco-Desconto) - codDesconto;
 		
-		return 0;
+		return preco;
 		
 	
 	
 }
+	}
