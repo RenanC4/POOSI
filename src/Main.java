@@ -6,7 +6,7 @@ public class Main {
 		
 		
 		
-		Cliente cli = new Cliente(nome, cpf, sexo);
+		ClienteDAO cli = new ClienteDAO();
 		
 
         System.out.println("Digite sua idade: ");
