@@ -1,4 +1,3 @@
-
 public class Produto {
 	private boolean cicloVida;
 	private int codigo;

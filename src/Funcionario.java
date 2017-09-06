@@ -8,7 +8,7 @@ class Funcionario extends Pessoa {
 	
 	
 	public Funcionario(String nome, String cpf, Boolean sexo) {
-		super(nome, cpf, sexo);
+		super();
 		// TODO Auto-generated constructor stub
 	}
 
